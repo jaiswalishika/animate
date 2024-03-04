@@ -17,8 +17,9 @@ function App() {
    
      <Routes>
       <Route path = "/" element={<Page1 />}/>
-      <Route path = "/" element={<Page2 />}/>
-      <Route path = "/" element={<Page3 />}/> 
+      <Route path = "/page2" element={<Page2 />}/>
+      <Route path = "/page3" element={<Page3 />}/> 
+      <Route path = "/reviews" element={<Reviews />}/> 
       <Route path = "/log" element={<Log/>}/>
      </Routes>
 

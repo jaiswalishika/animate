@@ -7,7 +7,7 @@ const Page3 = () => {
             <div className='m-3 lg:col-span-2  text-white bg-black'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want tips & tricks to optimize your flow? </h1>
 
-                <p>Sign Up yo our workshop and stay up to date.</p>
+                <p>Sign Up our workshop and stay up to date.</p>
             </div>
             <div className="m-3 my-4">
                 <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
