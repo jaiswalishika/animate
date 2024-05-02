@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page2 = () => {
   return (
-    <div className='w-full bg-blue-200 py-16 px-4'>
+    <div className='w-full py-16 px-4'>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
             <img className='w-[500px] mx-auto my-4' src="/gif-image.gif" alt="" />
             <div className='flex flex-col justify-center'>

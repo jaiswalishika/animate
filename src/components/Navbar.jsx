@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex bg-blue-200 justify-between items-center h-24 w-full mx-auto px-4 text-blue-950'>
+    <div className='flex justify-between items-center h-24 w-full mx-auto px-4 text-blue-950'>
       <h1 className='w-full text-3xl font-bold text-blue-950'>ANIMATE.</h1>
       <ul className='hidden font-semibold cursor-pointer md:flex'>
         <li><NavLink to ="/" className='p-4'>HOME</NavLink></li>

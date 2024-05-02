@@ -43,23 +43,23 @@ const Tools = () => {
 
   return (
 
-    <div className='max-w-full h-[600px] w-full m-auto py-16 px-4 relative group bg-blue-200 grid'>
+    <div className='hiiden lg:grid lg:max-w-full lg:h-[600px] lg:w-2/5 m-auto py-16 px-4 relative'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-[500px] h-[500px] flex items-center justify-center   rounded-2xl bg-center bg-cover duration-500 ml-10'>
+        className='w-[500px] h-[500px] flex items-center rounded-2xl bg-center bg-cover duration-500'>
+
+          {/* <img src={{backgroundImage:`url(${slides[currentIndex].url})`}} alt="" /> */}
 
         {/* Left Arrow */}
-        <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-          <BsChevronCompactLeft onClick={prevSlide} size={30} />
+        <div className='top-[50%] rounded-full p-2 text-black cursor-pointer flex justify-between'>
+          <BsChevronCompactLeft onClick={prevSlide} className="left-0 h-5 w-5 bg-white rounded-full" />
+          <BsChevronCompactRight onClick={nextSlide} className="right-0 h-5 w-5 bg-white rounded-full"/>
         </div>
         {/* Right Arrow */}
-        <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-          <BsChevronCompactRight onClick={nextSlide} className="" size={30} />
-        </div>
 
       </div>
 
-      <div className='flex top-4 justify-center py-2'>
+      {/* <div className='flex top-4 justify-center py-2'>
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
@@ -69,7 +69,7 @@ const Tools = () => {
             <RxDotFilled />
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 

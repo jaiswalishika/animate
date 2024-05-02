@@ -18,7 +18,7 @@ const Page1 = () => {
   
   return (
     <div className='flex flex-col '>
-    <div className='text-blue-950 bg-blue-200'>
+    <div className='text-blue-950'>
         <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
             <p className='text-blue-950 m-3 font-semibold'>STAY FOCUSED</p>
             <h1 className='md:text-6xl sm:text-6xl text-4xl font-bold md-py-6'>Grow With Right Guidance</h1>

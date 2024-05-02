@@ -7,9 +7,11 @@ import Page3 from './Page3'
 function Layout() {
   return (
     <>
+    <div className='bg-blue-200'>
     <Navbar/>
     <Outlet />
     <Page3/>
+    </div>
     </>
   )
 }
