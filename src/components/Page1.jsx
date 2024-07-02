@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Page2 from './Page2';
@@ -30,7 +29,6 @@ const Page1 = () => {
 
     </div>
     <Page2 />
-    <Tools/>
     <Reviews/>
     <Page3 />
 

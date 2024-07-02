@@ -19,8 +19,8 @@ const Navbar = () => {
       <ul className='hidden font-semibold cursor-pointer md:flex'>
         <li><NavLink to ="/" className='p-4'>HOME</NavLink></li>
         <li><NavLink to ="/page2" className='p-4'>ABOUT</NavLink></li>
-        <li><NavLink to ="/page3" className='p-4'>RESOURCES</NavLink></li>
-        <li><NavLink to ="/reviews" className='p-4'>CONTACT</NavLink></li>
+        <li><NavLink to ="/reviews" className='p-4'>RESOURCES</NavLink></li>
+        <li><NavLink to ="/page3" className='p-4'>CONTACT</NavLink></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <BsViewStacked size={20}/> : <BsViewStacked size={20} />}
